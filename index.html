@@ -12,7 +12,7 @@
     <style>
         * {margin: 0; padding: 0; box-sizing: border-box;}
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 550px) {
             body {
                 max-width: 100%;
             }
@@ -30,23 +30,23 @@
             }
 
             .quero-investir {
-                max-width: 300px !important;
+                max-width: 260px !important;
             }
 
             .faca-um-ted {
-                max-width: 300px !important;
+                max-width: 260px !important;
                 height: auto !important;
                 padding: 18px !important;
-                align-items: center !important;
+                /* align-items: center !important; */
             }
 
             .acesse-sua-conta {
-                max-width: 300px !important;
+                max-width: 260px !important;
                 height: auto !important;
             }
 
             .pronto {
-                max-width: 300px !important;
+                max-width: 260px !important;
                 height: auto !important;
             }
 
@@ -59,6 +59,7 @@
                 text-align: center !important;
                 justify-content: center !important;
                 align-items: center !important;
+                max-width: 130px !important;
             }
 
             .faca-um-ted-tres {
@@ -66,11 +67,61 @@
                 height: auto !important;
                 padding: 12px;
             }
+
+            .cabecalho h1 {
+                text-align: center;
+            }
+
+            .secao-lca-um {
+                align-items: center !important;
+                text-align: center !important;
+            }
+
+            .secao-lca-dois {
+                max-width: 260px;
+            }
+
+            .secao-lca-dois p1 {
+                font-size: 70px !important;
+            }
+
+            .secao-lca-dois p2 {
+                font-size: 30px !important;
+            }
+
+            .ola-cliente {
+                max-width: 260px;
+            }
+            
+            .cdi {
+                margin-right: 8px !important;
+                margin-left: 8px !important;
+            }
+
+            .nome-cliente {
+                font-size: 13px !important;
+            }
+
+            .footer-img {
+                display: none !important;
+            }
+
+            .footer-text {
+                width: auto !important;
+            }
+
+            .footer-text {
+                width: auto !important;
+            }
+
+            .produtos-cliente {
+                max-width: 260px !important;
+            }
         }
     </style>
 
 </head>
-<body style="background-color: #FFFFFF; border: 2px solid blue; width: 600px; min-height: 3305px; margin: 0 auto; font-family: 'Montserrat';">
+<body style="background-color: #FFFFFF; max-width: 600px; min-height: 3305px; margin: 0 auto; font-family: 'Montserrat';">
     
     <section style="background-color: #000000;">
         <header class="cabecalho" style="background-color: #FEBE10; display: flex; justify-content: center; align-items: center; height: 63px;">
@@ -85,13 +136,13 @@
         <section style="color: #FFFFFF; display: flex; flex-direction: column; justify-content: center; align-items: center;">
             <h3 style="font-size: 24.98px; font-weight: 400; line-height: 28.23px; text-align: center; margin: 21px 0 16px 0;">Potencialize seus ganhos<br>investindo com a XP na</h3>
             <h2 style="text-align: center; color: #FEBE10; margin-bottom: 24px;"><span style="font-size: 34.18px; font-weight: 700; line-height: 38.79px;">LCA BANCO CNH</span><br><span style="font-size: 46.8px; font-weight: 700; line-height: 53.11px;">CAPITAL S/A</span></h2>
-            <div style="display: flex; flex-direction: column; align-items: flex-start; margin-bottom: 40px;">
+            <div class="secao-lca-um" style="display: flex; flex-direction: column; align-items: flex-start; margin-bottom: 40px;">
                 <p style="font-size: 32.46px; font-weight: 400; line-height: 33.11px">Até</p>
-                <div style="display: flex; align-items: center; gap: 16px;">
-                    <span style="font-size: 80px; font-weight: 700; line-height: 81.6px; color: #00CFB9">100%</span>
+                <div class="secao-lca-dois" style="display: flex; align-items: center; gap: 16px;">
+                    <p1 style="font-size: 80px; font-weight: 700; line-height: 81.6px; color: #00CFB9">100%</p1>
                     <div style="display: flex; flex-direction: column; text-align: center;">
-                        <span style="font-size: 35.79px; font-weight: 700; line-height: 29.92px;">DO</span>
-                        <span style="font-size: 29.92px; font-weight: 700; line-height: 36.61px";>CDI</span>
+                        <p2 style="font-size: 35.79px; font-weight: 700; line-height: 29.92px;">DO</p2>
+                        <p2 style="font-size: 29.92px; font-weight: 700; line-height: 36.61px";>CDI</p2>
                     </div>
                 </div>
                 <p style="font-size: 28px; font-weight: 400; line-height: 28.56px; letter-spacing: 4.5px;">e Isenção de IR!</p>
@@ -102,18 +153,18 @@
         <hr style="border-color: #3D3D3D; margin: 0 40px">
 
         <section style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-            <div style="margin: 30px 40px;">
-                <h2 style="font-size: 16px; font-weight: 400; line-height: 25.76px; color: #FFFFFF; margin-bottom: 16px;">Ola, <span style="font-size: 16px; font-weight: 700; line-height: 25.76px; color: #FEBE10;">%%Primeiro_nome_de_cliente__c%%.</span></h2>
+            <div class="ola-cliente" style="margin: 30px 40px;">
+                <h2 style="font-size: 16px; font-weight: 400; line-height: 25.76px; color: #FFFFFF; margin-bottom: 16px;">Ola, <span class="nome-cliente" style="font-size: 16px; font-weight: 700; line-height: 25.76px; color: #FEBE10;">%%Primeiro_nome_de_cliente__c%%.</span></h2>
                 <p style="font-size: 14px; font-weight: 400; line-height: 25.76px; color: #FFFFFF; margin-bottom: 16px;">Essa pode ser a oportunidade que faltava para você diversificar os seus investimentos de forma segura e com beneficios fiscais: <span style="font-size: 16px; font-weight: 700; line-height: 25.76px; color: #00CFB9;">Invista com a XP na LCA Banco CNH Capital S/A.</span></p>
                 <h2 style="font-size: 18px; font-weight: 700; line-height: 28.98px; color: #FFFFFF;">COM ESSE PRODUTO VOCÊ TEM:</h2>
             </div>
-            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px;">
+            <div class="produtos-cliente" style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px;">
                 <div class="produtos_container-um" style="margin: 0 25px; display: flex; justify-content: center; align-items: center; gap: 16px;">
                     <div class="produtos_container-um-item" style="border: 2px solid #3D3D3D; display: flex; flex-direction: column; width: 255px; height: 206px; padding: 14px 16px; gap: 16px;">
                         <div style="width: 3rem; height: auto;">
                             <img src="./assets/Icon.svg" alt="Foguete">
                         </div>
-                        <h3 style="font-size: 17.5px; font-weight: 700; line-height: 21.88px; color: #FFFFFF;">BOA RENTABILIDADE</h3>
+                        <h3  style="font-size: 17.5px; font-weight: 700; line-height: 21.88px; color: #FFFFFF;">BOA RENTABILIDADE</h3>
                         <p style="font-size: 14.5px; font-weight: 400; line-height: 20px; color: #FFFFFF;">Até 100% do CDI (equivalente a um rendimento de 117,6% do CDI, com IR)</p>
                     </div>
                     
@@ -148,7 +199,7 @@
                 <div style="width: 50px; height: 50px">
                     <img style="width: 100%;" src="./assets/Icon-2.svg" alt="Oque é LCA">
                 </div>
-                <h2 style="font-size: 22px; font-weight: 700; line-height: 35.42px; color: #FFFFFF;">NÃO SABE OQUE É LCA?</h2>
+                <h2 style="font-size: 22px; font-weight: 700; line-height: 35.42px; color: #FFFFFF; text-align: center;">NÃO SABE OQUE É LCA?</h2>
                 <p style="font-size: 15px; font-weight: 400; line-height: 25.76px; color: #FFFFFF; text-align: center;">A <span style="font-weight: 700; text-decoration: underline;">Letra de Crédito do Agronegócio</span> <span style="font-weight: 700;">(LCA)</span> é um título de renda fixa emitido por instituições financeiras públicas e privadas, que visa financiar, principalmente, atividades de produtores rurais.</p>
                 <p style="font-size: 15px; font-weight: 400; line-height: 25.76px; color: #FFFFFF; text-align: center;">Assim, ao mesmo tempo em que você pode colher bons rendimentos, como investidor você ajuda a impulsionar o agro brasileiro, um setor vital para o país. </p>
             </div>
@@ -173,10 +224,10 @@
         <hr style="border-color: #3D3D3D; margin: 0 40px">
 
         <section style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 16px; margin-bottom: 24px;">
-            <h2 style="font-size: 23px; font-weight: 700; line-height: 28.37px; color: #FFFFFF; margin: 24px 0;">PASSO A PASSO PARA SOLICITAR A SUA:</h2>
+            <h2 style="font-size: 23px; font-weight: 700; line-height: 28.37px; color: #FFFFFF; margin: 24px 4px;">PASSO A PASSO PARA SOLICITAR A SUA:</h2>
             <div class="faca-um-ted" style="display: flex; align-items: flex-start; gap: 16px; border: 1px solid #3D3D3D; width: 520px; height: 285px; padding: 18px;">
                 <div style="width: 50px; height: 50px;">
-                    <img style="width: 100%;" src="/assets/Icon-6.svg" alt="Faça um TED">
+                    <img style="width: 50px; height: 50px;" src="/assets/Icon-6.svg" alt="Faça um TED">
                 </div>
                 <div class="faca-um-ted-dois" style="display: flex; flex-direction: column; align-items: flex-start; gap: 12px;">
                     <h3 style="font-size: 17.5px; font-weight: 700; line-height: 21.88px; color: #FFFFFF">FAÇA UMA TED</h3>
@@ -209,7 +260,7 @@
 
             <div class="acesse-sua-conta" style="display: flex; align-items: center; gap: 16px; border: 1px solid #3D3D3D; width: 520px; height: 132px; padding: 18px;">
                 <div style="width: 50px; height: 50px;">
-                    <img style="width: 50px" src="./assets/Icon-4.svg" alt="Acesse sua Conta">
+                    <img style="width: 50px; height: 50px" src="./assets/Icon-4.svg" alt="Acesse sua Conta">
                 </div>
                 <div style="display: flex; flex-direction: column; align-items: start; gap: 16px;">
                     <h2 style="font-size: 19px; font-weight: 700; line-height: 23.75px; color: #FFFFFF;">ACESSE SUA CONTA DE INVESTIMENTOS</h2>
@@ -219,7 +270,7 @@
 
             <div class="pronto" style="display: flex; align-items: center; gap: 16px; border: 1px solid #3D3D3D; width: 520px; height: 132px; padding: 18px;">
                 <div style="width: 50px; height: 50px;">
-                    <img style="width: 50px" src="./assets/Icon-5.svg" alt="Acesse sua Conta">
+                    <img style="width: 50px; height: 50px;" src="./assets/Icon-5.svg" alt="Acesse sua Conta">
                 </div>
                 <div style="display: flex; flex-direction: column; align-items: start; gap: 16px;">
                     <h2 style="font-size: 19px; font-weight: 700; line-height: 23.75px; color: #FFFFFF;">PRONTO</h2>
@@ -234,16 +285,16 @@
     </main>
 
     <footer style="display: flex; align-items: center; justify-content: center;">
-        <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 16px 30px; gap: 20px; width: 50%;">
+        <div class="footer-text" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 16px 30px; gap: 20px; width: 50%;">
             <div style="width: 32px; height: 32px;">
                 <img style="width: 100%;" src="assets/help-circle@1x.svg" alt="Ajuda">
             </div>
             <h2 style="font-size: 22px; font-weight: 700; line-height: 30px;">Precisa de ajuda para começar?</h2>
             <p style="font-size: 15px; font-weight: 500; line-height: 20px;">Fale com seu assessor de investimentos exclusivo, ele pode te ajudar a investir com muito mais segurança e tranqulidade.</p>
-            <button style="width: 221px; height: 50px; background-color: #000000; color: #F6BE2C; padding: 9px 16px; border: none; font-size: 14.59px; font-weight: 700;">Falar com meu assessor</button>
+            <button class="falar-com-meu-assessor" style="width: 221px; min-height: 50px; background-color: #000000; color: #F6BE2C; padding: 9px 16px; border: none; font-size: 14.59px; font-weight: 700;">Falar com meu assessor</button>
         </div>
         <div style="width: auto;">
-            <img style="width: 100%;" src="assets/Rectangle 973.svg" alt="Falar com meu assessor">
+            <img class="footer-img" style="width: 100%;" src="assets/Rectangle 973.svg" alt="Falar com meu assessor">
         </div>
     </footer>
     
