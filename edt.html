@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Estrutura de Tabela</title>
+
+    <style> 
+        * {margin: 0; padding: 0; box-sizing: border-box; border-collapse: collapse; border-spacing: 0}
+
+        @media screen and (max-width: 550px) {
+            .boarentabilidade-seguranca {
+                flex-direction: column;
+            }
+
+            .boarentabilidade-seguranca-content {
+                width: 100% !important;
+            }
+
+            .nao-perca-tempo {
+                display: none !important;
+            }
+
+            .passo-a-passo {
+                flex-direction: column !important;
+                height: auto !important;
+                align-items: flex-start !important;
+            }
+
+            .passo-a-passo-ted-container {
+                flex-direction: column !important;
+                height: auto !important;
+                align-items: center !important;
+                padding: 8px 12px !important;
+                gap: 24px !important;
+            }
+
+            .passo-a-passo-ted {
+                flex-direction: column !important;
+                gap: 16px !important;
+            }
+
+            .nome-cliente {
+                font-size: 13px !important;
+            }
+
+            .investir-na-lca {
+                gap: 0 !important ;
+                padding: 0 2px !important;
+            }
+
+            .img-footer img {
+                display: none !important;
+            }
+
+            .container-footer {
+                align-items: center !important;
+                margin: 16px 24px !important;
+                gap: 32px !important;
+            }
+        }
+ 
+    </style>
+</head>
+<body style="background-color: #FFFFFF; border: 2px solid blue; max-width: 600px; min-height: 3305px; margin: 0 auto; font-family: 'Montserrat';">
+    
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <div style="display: flex; flex-direction: column;">
+                        <h1 style="font-size: 22px; font-weight: 700; line-height: 27.5px; height: 63px; display: flex; align-items: center; justify-content: center; background-color: #FEBE10; color: #000000; text-align: center;">PRODUTO LIMITADO AO ESTOQUE</h1>
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <img style="width: 100%" src="./assets/Rectangle 41.svg" alt="Grãos de Soja">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <main style="background-color: #000000; color: #FFFFFF; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <table>
+
+            <tr>
+                <td>
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 32px; margin-top: 32px;">
+                        <h3 style="font-size: 24.98px; font-weight: 400; line-height: 28.53px;">Potencialize seus ganhos<br>investindo com a XP na</h3>
+                        
+                        <div style="display: flex; flex-direction: column; align-items: center;">
+                            <h2 style="font-size: 34.18px; font-weight: 700; line-height: 38.79px; color: #FEBE10">LCA BANCO CNH<br></h2>
+                            <h2 style="font-size: 46.8px; font-weight: 700; line-height: 53.11px; color: #FEBE10">CAPITAL S/A</h2>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; gap: 16px; align-items: flex-start; justify-content: center;">
+                            <p style="font-size: 32.46px; font-weight: 400; line-height: 33.11px;">Até</p>
+                                <div class="investir-na-lca" style="display: flex; text-align: center; align-items: center; gap: 16px">
+                                    <p style="font-size: 80px; font-weight: 700; line-height: 81.6px; color: #00CFB9">100%</p>
+                                    <div style="display: flex; flex-direction: column; text-align: center;">
+                                        <p style="font-size: 35.79px; font-weight: 700; line-height: 36.51px;">DO</p>
+                                        <p style="font-size: 29.34px; font-weight: 700; line-height: 29.92px;">CDI</p>
+                                    </div>
+                                </div>
+                                <p style="font-size: 28px; font-weight: 400; line-height: 28.56px; letter-spacing: 4.4px;">e Isenção de IR!</p>
+                        </div>
+                        <button style="font-size: 16.21px; font-weight: 700; line-height: 26.09px; background-color: #FEBE10; border: none; width: 216px; height: 55.56px; color: #171717; margin: 0 0 40px 16px;">Investir na LCA CNH</button>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="line">
+                <td>
+                    <hr style="border: 1px solid #1D1D1D; margin: 0 5%;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                        <div style="display: flex; flex-direction: column; align-items: flex-start; width: 88%; gap: 24px; margin-top: 32px;">
+                            <p class="nome-cliente" style="font-size: 16px; font-weight: 400; line-height: 25.76px;">Olá, <strong style="font-weight: 700; color: #FEBE10">%%Primeiro_nome_de_cliente__c%%.</strong></p>
+                            <p style="font-size: 14.5px; font-weight: 400; line-height: 25.76px;">Essa pode ser a oportunidade que faltava para você diversificar os seus investimentos de forma segura e com benefícios fiscais: <strong style="font-weight: 700; color: #00CFB9">Invista com a XP na LCA Banco CNH Capital S/A.</strong></p>
+                            <p style="font-size: 18px; font-weight: 700; line-height: 28.98px;">COM ESSE PRODUTO VOCÊ TEM:</p>
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 90%; gap: 20px; margin: 24px 0;">
+
+                            <div class="boarentabilidade-seguranca" style="display: flex; align-items: center; justify-content: center; gap: 20px">
+                                <div class="boarentabilidade-seguranca-content" style="border: 1px solid #3D3D3D; width: 48%; height: 205px; padding: 16px; display: flex; flex-direction: column; align-items: flex-start; gap: 10px;">
+                                    <div>
+                                        <img src="./assets/Icon.svg" alt="Boa Rentabilidade">
+                                    </div>
+                                    <p style="font-size: 17.5px; font-weight: 700; line-height: 21.88px;">BOA RENTABILIDADE</p>
+                                    <p style="font-size: 15px; font-weight: 400; line-height: 20px;">Até 100% do CDI (equivalente a um rendimento de 117,6% do CDI, com IR)</p>
+                                </div>
+                                <div class="boarentabilidade-seguranca-content" style="border: 1px solid #3D3D3D; width: 48%; height: 205px; padding: 16px; display: flex; flex-direction: column; align-items: flex-start; gap: 10px;">
+                                    <div>
+                                        <img src="./assets/Icon-3.svg" alt="">
+                                    </div>
+                                    <p style="font-size: 17.5px; font-weight: 700; line-height: 21.88px;">SEGURANÇA*</p>
+                                    <p style="font-size: 16px; font-weight: 400; line-height: 20px;">Garantia do FGC</p>
+                                </div>
+                            </div>
+
+                            <div style="border: 1px solid #3D3D3D; width: 100%; height: 100px; padding: 16px; display: flex; flex-direction: row; align-items: center; gap: 10px;">
+                                <div style="height: 50px; width: 50px">
+                                    <img src="./assets/Icon-1.svg" alt="">
+                                </div>
+                                <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 8px; justify-content: center;">
+                                    <p style="font-size: 17.5px; font-weight: 700; line-height: 21.88px;">BENEFÍCIO FISCAL</p>
+                                    <p style="font-size: 16px; font-weight: 400; line-height: 20px;">Isenção de IR</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="line">
+                <td>
+                    <hr style="border: 1px solid #1D1D1D; margin: 0 5%;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+
+                        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; margin: 32px 0">
+                            <div style="width: 90%; display: flex; flex-direction: column; gap: 12px;">
+                                <div>
+                                    <img src="./assets/Icon-2.svg" alt="">
+                                </div>
+                                <h2 style="font-size: 22px; font-weight: 700; line-height: 35.42px;">NÃO SABE O QUE É LCA?</h2>
+                                <p style="font-size: 16px; font-weight: 400; line-height: 25.76px;">A <strong style="font-weight: 700;"><strong style="text-decoration: underline;">Letra de Crédito do Agronegócio</strong>(LCA)</strong> é um título de renda fixa emitido por instituições financeiras públicas e privadas, que visa financiar, principalmente, atividades de produtores rurais.</p>
+                                <p style="font-size: 15px; font-weight: 400; line-height: 25.76px; padding-top: 16px;">Assim, ao mesmo tempo em que você pode colher bons rendimentos, como investidor você ajuda a impulsionar o agro brasileiro, um setor vital para o país. </p>
+                            </div>
+                        </div>
+
+                        <div style="width: 100%">
+                            <h1 style="font-size: 22px; font-weight: 700; line-height: 27.5px; height: 63px; display: flex; align-items: center; justify-content: center; background-color: #FEBE10; color: #000000; text-align: center;">PRODUTO LIMITADO AO ESTOQUE</h1>
+                        </div>
+                    </div>    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 40px 0 16px 0">
+                        <div class="nao-perca-tempo" style="display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #3D3D3D; padding: 16px 52px; max-width: 520px; height: 300px; gap: 16px;">
+                            <div>
+                                <img src="./assets/Group 3.svg" alt="">
+                            </div>
+                            <h2 style="font-size: 20px; font-weight: 700; line-height: 32.2px;">NÃO PERCA MAIS TEMPO</h2>
+                            <p style="font-size: 16px; font-weight: 400; line-height: 25.76px;">clique e comece a investir com a XP.</p>
+                            <button style="font-size: 16.21px; font-weight: 700; line-height: 26.09px; background-color: #FEBE10; border: none; width: 240px; height: 55.56px;">Quero investir</button>
+                            <p style="font-size: 14px; font-weight: 400; line-height: 22.52px; color: #D9D9D9;">*O FGC garante até o limite de R$250 mil por CPF ou CNPJ</p>
+                        </div> 
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="line">
+                <td>
+                    <hr style="border: 1px solid #1D1D1D; margin: 0 6.5%;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;">
+                        <h2 style="font-size: 23px; font-weight: 700; line-height: 28.37px; color: #FFFFFF; margin: 32px 0; text-align: center;">PASSO A PASSO PARA SOLICITAR A SUA:</h2>
+                        
+                        <div class="passo-a-passo" style="display: flex; align-items: flex-start; gap: 16px; border: 1px solid #3D3D3D; width: 87%; height: 285px; padding: 18px;">
+                            <div>
+                                <img src="./assets/Icon-6.svg" alt="Faça um TED">
+                            </div>
+                            <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 12px;">
+                                <h3 style="font-size: 17.5px; font-weight: 700; line-height: 21.88px; color: #FFFFFF">FAÇA UMA TED</h3>
+                                <p style="font-size: 16px; font-weight: 400; line-height: 20px; color: #FFFFFF">a partir de R$1000 para sua conta:</p>
+                                
+                                <div class="passo-a-passo-ted-container" style="border: 0.5px solid #3D3D3D; max-width: 395px; height: 170px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 0 24px">
+                                    <h3 style="font-size: 18px; font-weight: 400; line-height: 22.5px; color: #FFFFFF;">Seguem seus dados para TED:</h3>
+                                    <div class="passo-a-passo-ted" style="display: flex; align-items: center; justify-content: center; gap: 70px;">
+                                        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                            <p style="font-size: 14px; font-weight: 400; line-height: 17.5px; color: #FFFFFF">Banco</p>
+                                            <p style="font-size: 18px; font-weight: 700; line-height: 22.5px; color: #FFFFFF">102</p>
+                                        </div>
+                                        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                            <p style="font-size: 14px; font-weight: 400; line-height: 17.5px; color: #FFFFFF">Conta Corrente</p>
+                                            <p style="font-size: 18px; font-weight: 700; line-height: 22.5px; color: #FFFFFF">000000000</p>
+                                        </div>
+                                        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                            <p style="font-size: 14px; font-weight: 400; line-height: 17.5px; color: #FFFFFF">Agência</p>
+                                            <p style="font-size: 18px; font-weight: 700; line-height: 22.5px; color: #FFFFFF">0001</p>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2px;">
+                                        <p style="font-size:12px; font-weight: 500; line-height: 15px; color: #ADADAD;">ISPB (caso o banco solicite): 02.332.886</p>
+                                        <p style="font-size: 12px; font-weight: 500; line-height: 15px; color: #FFFFFF">Lembre-se: a TED precisa ser de mesma titularidade.</p>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+
+                        <div class="passo-a-passo" style="display: flex; align-items: center; gap: 16px; border: 1px solid #3D3D3D; width: 87%; height: 132px; padding: 18px;">
+                            <div>
+                                <img src="./assets/Icon-4.svg" alt="Acesse sua Conta">
+                            </div>
+                            <div style="display: flex; flex-direction: column; align-items: start; gap: 16px;">
+                                <h2 style="font-size: 19px; font-weight: 700; line-height: 23.75px; color: #FFFFFF;">ACESSE SUA CONTA DE INVESTIMENTOS</h2>
+                                <P style="font-size: 15px; font-weight: 400; line-height: 25.6px; color: #FFFFFF; text-align: start;">E siga o caminho: Produtos > Renda fixa > LCA Banco CNH Capital S/A > Investir</P>
+                            </div>
+                        </div>
+    
+                        <div class="passo-a-passo" style="display: flex; align-items: center; gap: 16px; border: 1px solid #3D3D3D; width: 87%; height: 132px; padding: 18px;">
+                            <div>
+                                <img src="./assets/Icon-5.svg" alt="Acesse sua Conta">
+                            </div>
+                            <div style="display: flex; flex-direction: column; align-items: start; gap: 16px;">
+                                <h2 style="font-size: 19px; font-weight: 700; line-height: 23.75px; color: #FFFFFF;">PRONTO</h2>
+                                <P style="font-size: 16px; font-weight: 400; line-height: 25.6px; color: #FFFFFF; text-align: start;">Agora é só deixar o seu dinheiro render com a XP.</P>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </td>
+            </tr>
+
+            <tr class="line">
+                <td>
+                    <hr style="border: 1px solid #1D1D1D; margin: 32px 6%">
+                </td>
+            </tr>
+
+        </table>
+
+    </main>
+    <footer style="background-color: #FFFFFF;">
+        <table>
+            <tr>
+                <td>
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                        <div class="container-footer" style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 16px; margin: 0 32px;">
+                            <div>
+                                <img src="./assets/help-circle@1x.svg" alt="">
+                            </div>
+                                <h2 style="font-size: 24px; font-weight: 700; line-height: 30px;">Precisa de ajuda <br>para começar?</h2>
+                                <p style="font-size: 15px; font-weight: 500; line-height: 20px;">Fale com o seu assessor de investimentos exclusivo, ele pode te ajudar a investir com muito mais segurança e tranquilidade.</p>
+                                <button style="font-size: 14.59px; font-weight: 700; line-height: 23.48px; color: #F6BE2C; border: none; background-color: #000000; width: 221px; height: 50px;">Falar com meu assessor</button>
+                        </div>
+                        <div class="img-footer">
+                            <img src="./assets/Rectangle 973.svg" alt="">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
